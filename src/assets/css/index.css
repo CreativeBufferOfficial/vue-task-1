@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer base{
+    h2{
+        font-size: 40px;
+    }
+}
+
+@layer components {
+    .btn-dark {
+        @apply bg-black text-white;
+        padding: 10px 30px;
+        border-radius: 5px;
+    }
+    .custom-input{
+        @apply block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0;
+    }
+}
+
+.main-section{
+    padding: 30px;
+    width: 700px;
+    background-color: #ececec;
+}
+.main-section #intro{
+    text-align: center;
+}
+.main-section #intro h4{
+    font-size: 25px;
+}
+
